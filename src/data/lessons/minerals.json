@@ -1,0 +1,179 @@
+{
+  "id": "minerals",
+  "title": "الثروة المعدنية ومصادر الطاقة",
+  "ageHint": "للصف الخامس (تجربة تفاعلية للأطفال)",
+  "objectives": [
+    "أحدد مصادر الطاقة في مصر",
+    "أميز بين المعادن الفلزية واللافلزية",
+    "أفسر أهمية الثروة المعدنية للاقتصاد"
+  ],
+  "conceptCards": [
+    {
+      "id": "energy-sources",
+      "title": "مصادر الطاقة",
+      "bullets": [
+        "مصادر تقليدية: البترول والغاز الطبيعي.",
+        "مصادر متجددة: الشمس والرياح (وتستخدم لتوليد الكهرباء)."
+      ],
+      "miniTip": "اسأل الشات: (فين مناطق البترول؟) أو (يعني إيه طاقة متجددة؟)"
+    },
+    {
+      "id": "minerals-types",
+      "title": "أنواع المعادن",
+      "bullets": [
+        "معادن فلزية: مثل الحديد والمنجنيز.",
+        "معادن لافلزية: مثل الفوسفات والحجر الجيري."
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "gulf-suez",
+      "title": "خليج السويس",
+      "aliases": [
+        "السويس",
+        "خليج السويس"
+      ],
+      "lat": 29.5,
+      "lng": 32.6,
+      "category": "energy",
+      "summary": "من المناطق المرتبطة بإنتاج البترول والغاز.",
+      "details": [
+        "مصدر طاقة يدعم الصناعة والحياة.",
+        "مهم لإدارة الموارد بكفاءة."
+      ],
+      "metrics": {
+        "importance": 60,
+        "score": 70
+      }
+    },
+    {
+      "id": "aswan-solar",
+      "title": "طاقة شمسية (أسوان)",
+      "aliases": [
+        "شمسيه",
+        "شمسية",
+        "بنبان"
+      ],
+      "lat": 24.1,
+      "lng": 32.7,
+      "category": "renewable",
+      "summary": "من أمثلة الاستفادة من الطاقة الشمسية لتوليد الكهرباء.",
+      "details": [
+        "مجمع شمسي ضخم (بنبان) يولد كهرباء نظيفة.",
+        "يقلل الانبعاثات ويعتمد على الطاقة المتجددة.",
+        "يساعد في التنمية المستدامة."
+      ],
+      "media": {
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Benban%20Solar%20Park.jpg",
+        "video": "https://www.youtube.com/embed/tVA1Rjo-YIw",
+        "source": "https://en.wikipedia.org/wiki/Benban_Solar_Park",
+        "attribution": "Wikimedia Commons / Wikipedia"
+      },
+      "metrics": {
+        "importance": 92,
+        "score": 90
+      }
+    },
+    {
+      "id": "zaafarana",
+      "title": "طاقة رياح (الزعفرانة)",
+      "aliases": [
+        "الزعفرانه",
+        "زعفرانة",
+        "رياح"
+      ],
+      "lat": 29.0,
+      "lng": 32.6,
+      "category": "renewable",
+      "summary": "من أشهر مناطق طاقة الرياح في مصر.",
+      "details": [
+        "مزرعة رياح على خليج السويس.",
+        "تولد كهرباء من الرياح بدل الوقود.",
+        "تم إنشاء مراحل متعددة عبر سنوات."
+      ],
+      "media": {
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wind%20turbine%20at%20Zaafarana%20by%20Hatem%20Moushir%205.JPG",
+        "source": "https://ar.wikipedia.org/wiki/%D9%85%D8%B2%D8%B1%D8%B9%D8%A9_%D8%B1%D9%8A%D8%A7%D8%AD_%D8%A7%D9%84%D8%B2%D8%B9%D9%81%D8%B1%D8%A7%D9%86%D8%A9",
+        "attribution": "Wikimedia Commons / Wikipedia"
+      },
+      "metrics": {
+        "importance": 85,
+        "score": 82
+      }
+    },
+    {
+      "id": "abu-tartur",
+      "title": "فوسفات (أبو طرطور)",
+      "aliases": [
+        "ابو طرطور",
+        "فوسفات"
+      ],
+      "lat": 25.5,
+      "lng": 30.0,
+      "category": "mineral",
+      "summary": "من أشهر مناطق الفوسفات.",
+      "details": [
+        "ثروة معدنية تدخل في الصناعة.",
+        "تحتاج تعدين مسؤول وحماية للبيئة."
+      ],
+      "metrics": {
+        "importance": 60,
+        "score": 70
+      }
+    }
+  ],
+  "activities": [
+    {
+      "id": "quiz-energy",
+      "type": "quiz",
+      "title": "اختبار الطاقة",
+      "questions": [
+        {
+          "id": "q1",
+          "q": "أيّ مما يلي يعد مصدر طاقة متجددة؟",
+          "choices": [
+            "البترول",
+            "الغاز الطبيعي",
+            "الشمس",
+            "الفوسفات"
+          ],
+          "answerIndex": 2,
+          "explain": "الشمس طاقة متجددة."
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "k": "أماكن الطاقة",
+      "v": "{places}",
+      "hint": "عدد النقاط التعليمية"
+    },
+    {
+      "k": "تقدمك",
+      "v": "{progress}%",
+      "hint": "يزيد مع التفاعل"
+    },
+    {
+      "k": "نقاط XP",
+      "v": "{xp}",
+      "hint": "تزيد عند الإجابات الصحيحة"
+    }
+  ],
+  "missions": [
+    {
+      "id": "m1",
+      "title": "زور الطاقة المتجددة",
+      "steps": [
+        "aswan-solar",
+        "zaafarana"
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "حل اختبار الطاقة",
+      "activity": "quiz-energy"
+    }
+  ]
+}

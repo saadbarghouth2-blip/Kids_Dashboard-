@@ -1,0 +1,535 @@
+{
+  "id": "projects",
+  "title": "المشروعات القومية (رؤية مصر للمستقبل)",
+  "ageHint": "الصف الخامس – الوحدة الثالثة – الدرس الثالث",
+  "objectives": [
+    "أتعرف رؤية مصر ودورها في التنمية المستدامة.",
+    "أحدد بعض المشروعات القومية في مجالات مختلفة (زراعة/طاقة/نقل/عمران).",
+    "أوضح أثر المشروعات القومية على حياة المواطنين.",
+    "أقترح فكرة مشروع قومي لتحسين جودة الحياة في محافظتي."
+  ],
+  "conceptCards": [
+    {
+      "id": "c1",
+      "title": "يعني إيه تنمية مستدامة؟",
+      "bullets": [
+        "استثمار الموارد لتلبية احتياجات السكان دون الإضرار بحقوق الأجيال المستقبلية.",
+        "نحافظ على البيئة والموارد الطبيعية، ونحسن جودة الحياة."
+      ],
+      "miniTip": "اسأل: ازاي مشروع زي التحلية أو الطاقة الشمسية بيساعد في الاستدامة؟",
+      "placeId": "benban"
+    },
+    {
+      "id": "c2",
+      "title": "رؤية مصر للمستقبل",
+      "bullets": [
+        "الارتقاء بجودة حياة المواطن.",
+        "بناء اقتصاد متنوع قائم على المعرفة والابتكار.",
+        "الحفاظ على الموارد الطبيعية وحماية البيئة."
+      ],
+      "miniTip": "اضغط علشان نزور أمثلة من المشروعات على الخريطة.",
+      "placeId": "newcap"
+    },
+    {
+      "id": "c3",
+      "title": "مشروعات زراعية كبرى",
+      "bullets": [
+        "مشروع الدلتا الجديدة: أمن غذائي + زراعة محاصيل استراتيجية مثل القمح.",
+        "تقليل الاستيراد وتوفير فرص عمل وتحسين المعيشة."
+      ],
+      "placeId": "newdelta"
+    },
+    {
+      "id": "c4",
+      "title": "مشروعات طاقة متجددة",
+      "bullets": [
+        "محطات شمسية: بنبان (أسوان).",
+        "محطات رياح: الزعفرانة + جبل الزيت (البحر الأحمر)."
+      ],
+      "placeId": "zaafarana"
+    },
+    {
+      "id": "c5",
+      "title": "نقل ومواصلات حديثة",
+      "bullets": [
+        "القطار الكهربائي السريع يربط العلمين الجديدة بالعين السخنة.",
+        "الهدف: تقليل الزحام، تسهيل الانتقال بين المدن الجديدة."
+      ],
+      "placeId": "newalamein"
+    },
+    {
+      "id": "c6",
+      "title": "مشروعات ممرات مائية",
+      "bullets": [
+        "قناة السويس الجديدة: تقليل زمن العبور وزيادة عدد السفن وزيادة الدخل القومي.",
+        "القناة ممر ملاحي عالمي مهم لمصر والعالم."
+      ],
+      "placeId": "suezcanal"
+    }
+  ],
+  "places": [
+    {
+      "id": "newalamein",
+      "title": "مدينة العلمين الجديدة",
+      "aliases": [
+        "العلمين",
+        "العلمين الجديدة"
+      ],
+      "lat": 31.02,
+      "lng": 28.98,
+      "category": "urban",
+      "summary": "مدينة جديدة على ساحل المتوسط ضمن مشروعات العمران؛ تدعم الاستثمار والخدمات وفرص العمل.",
+      "details": [
+        "مدينة جديدة على ساحل المتوسط.",
+        "تعزز الاستثمار والسياحة والخدمات.",
+        "تدعم التوسع العمراني."
+      ],
+      "media": {
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/New%20Alamein.jpg",
+        "source": "https://commons.wikimedia.org/wiki/Category:New_Alamein",
+        "attribution": "Wikimedia Commons"
+      },
+      "metrics": {
+        "importance": 82,
+        "score": 80
+      }
+    },
+    {
+      "id": "newdelta",
+      "title": "مشروع الدلتا الجديدة",
+      "aliases": [
+        "الدلتا الجديدة"
+      ],
+      "lat": 30.65,
+      "lng": 29.4,
+      "category": "agri",
+      "summary": "مشروع زراعي ضخم غرب الدلتا؛ يحقق الأمن الغذائي ويقلل الاستيراد ويوفر فرص عمل.",
+      "details": [
+        "مشروع زراعي ضخم غرب الدلتا.",
+        "يهدف للأمن الغذائي وزراعة محاصيل استراتيجية.",
+        "يعتمد على بنية مياه ومعالجة ونقل."
+      ],
+      "media": {
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wheat%20harvest%20-%20Egypt.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Wheat_harvest_-_Egypt.jpg",
+        "attribution": "Wikipedia"
+      },
+      "metrics": {
+        "importance": 90,
+        "score": 85
+      }
+    },
+    {
+      "id": "ghalyoun",
+      "title": "بركة غليون (استزراع سمكي)",
+      "aliases": [
+        "غليون",
+        "بركة غليون"
+      ],
+      "lat": 31.45,
+      "lng": 31.3,
+      "category": "aquaculture",
+      "summary": "أحد أكبر مشروعات الاستزراع السمكي؛ زيادة الإنتاج وتلبية السوق المحلي وفائض للتصدير.",
+      "details": [
+        "مشروع استزراع سمكي كبير بكفر الشيخ.",
+        "زيادة الإنتاج وتوفير فرص عمل ودعم التصدير.",
+        "يشمل مصانع وخدمات مرتبطة."
+      ],
+      "media": {
+        "source": "https://sis.gov.eg/en/projects-initiatives/projects/ghalioun-the-largest-fish-farming-farm-in-the-middle-east/",
+        "attribution": "Egypt SIS"
+      },
+      "metrics": {
+        "importance": 80,
+        "score": 78
+      }
+    },
+    {
+      "id": "benban",
+      "title": "محطة بنبان للطاقة الشمسية",
+      "aliases": [
+        "بنبان",
+        "الطاقة الشمسية"
+      ],
+      "lat": 24.41,
+      "lng": 32.82,
+      "category": "renewable",
+      "summary": "مجمع شمسي ضخم بأسوان؛ يوفر كهرباء نظيفة ويقلل الانبعاثات.",
+      "details": [
+        "مجمع شمسي ضخم (بنبان) يولد كهرباء نظيفة.",
+        "يقلل الانبعاثات ويعتمد على الطاقة المتجددة.",
+        "يساعد في التنمية المستدامة."
+      ],
+      "media": {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Benban_Solar_Park.jpg",
+        "video": "https://www.youtube.com/embed/tVA1Rjo-YIw",
+        "source": "https://commons.wikimedia.org/wiki/File:Benban_Solar_Park.jpg",
+        "attribution": "Wikimedia Commons + YouTube"
+      },
+      "metrics": {
+        "importance": 92,
+        "score": 90
+      }
+    },
+    {
+      "id": "zaafarana",
+      "title": "محطة الزعفرانة لطاقة الرياح",
+      "aliases": [
+        "الزعفرانة",
+        "طاقة الرياح"
+      ],
+      "lat": 29.11,
+      "lng": 32.65,
+      "category": "renewable",
+      "summary": "واحدة من أشهر مناطق الرياح على خليج السويس؛ توليد كهرباء من الرياح.",
+      "details": [
+        "مزرعة رياح على خليج السويس.",
+        "تولد كهرباء من الرياح بدل الوقود.",
+        "تم إنشاء مراحل متعددة عبر سنوات."
+      ],
+      "media": {
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wind%20turbine%20at%20Zaafarana%20by%20Hatem%20Moushir%205.JPG",
+        "source": "https://ar.wikipedia.org/wiki/%D9%85%D8%B2%D8%B1%D8%B9%D8%A9_%D8%B1%D9%8A%D8%A7%D8%AD_%D8%A7%D9%84%D8%B2%D8%B9%D9%81%D8%B1%D8%A7%D9%86%D8%A9",
+        "attribution": "Wikimedia Commons / Wikipedia"
+      },
+      "metrics": {
+        "importance": 85,
+        "score": 82
+      }
+    },
+    {
+      "id": "gabalzait",
+      "title": "جبل الزيت (طاقة الرياح)",
+      "aliases": [
+        "جبل الزيت"
+      ],
+      "lat": 28.98,
+      "lng": 33.15,
+      "category": "renewable",
+      "summary": "منطقة رياح قوية على البحر الأحمر؛ مشروعات لتوليد الكهرباء من الرياح.",
+      "details": [
+        "طاقة نظيفة تقلل الانبعاثات.",
+        "تعتمد على الشمس/الرياح حسب المكان."
+      ],
+      "metrics": {
+        "importance": 60,
+        "score": 70
+      }
+    },
+    {
+      "id": "newcap",
+      "title": "العاصمة الإدارية الجديدة",
+      "aliases": [
+        "العاصمة الإدارية",
+        "العاصمة الجديدة"
+      ],
+      "lat": 30.01,
+      "lng": 31.74,
+      "category": "urban",
+      "summary": "مدينة ذكية شرق القاهرة؛ تخفيف الضغط عن القاهرة وجذب استثمارات وتوفير فرص عمل.",
+      "details": [
+        "مدينة ذكية شرق القاهرة لتخفيف الضغط عن القاهرة.",
+        "مبانٍ حكومية + حي أعمال + خدمات حديثة.",
+        "جزء من رؤية مصر للتنمية."
+      ],
+      "media": {
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Central%20business%20district%202%2C%20New%20Administrative%20Capital.jpg",
+        "video": "https://www.youtube.com/embed/K9qf9_uSV_A",
+        "source": "https://commons.wikimedia.org/wiki/Category:New_Administrative_Capital",
+        "attribution": "Wikimedia Commons"
+      },
+      "metrics": {
+        "importance": 90,
+        "score": 84
+      }
+    },
+    {
+      "id": "rodelfarag",
+      "title": "محور روض الفرج (تحيا مصر)",
+      "aliases": [
+        "روض الفرج",
+        "تحيا مصر"
+      ],
+      "lat": 30.09,
+      "lng": 31.19,
+      "category": "transport",
+      "summary": "محور وكوبري رئيسي لتسهيل الحركة وربط مناطق داخل القاهرة؛ جزء من طفرة الطرق.",
+      "details": [
+        "محور وكوبري رئيسي بالقاهرة الكبرى لربط مناطق مهمة.",
+        "يساعد في تقليل الزحام وتحسين الحركة.",
+        "مشروع ضمن تطوير الطرق."
+      ],
+      "media": {
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tahya%20Misr%20Axis%20Bridge02.jpg",
+        "video": "https://www.youtube.com/embed/mKeos9nwDW8",
+        "source": "https://commons.wikimedia.org/wiki/File:Tahya_Misr_Axis_Bridge02.jpg",
+        "attribution": "Wikimedia Commons"
+      },
+      "metrics": {
+        "importance": 88,
+        "score": 83
+      }
+    },
+    {
+      "id": "electrictrain",
+      "title": "القطار الكهربائي السريع",
+      "aliases": [
+        "القطار السريع",
+        "القطار الكهربائي"
+      ],
+      "lat": 30.3,
+      "lng": 31.1,
+      "category": "transport",
+      "summary": "خط يربط العلمين الجديدة بالعين السخنة عبر محطات تبادلية؛ يقلل الزحام ويسهل الانتقال.",
+      "details": [
+        "يسهل حركة الناس والبضائع.",
+        "يقلل الزحام ويوفر وقت وطاقة."
+      ],
+      "metrics": {
+        "importance": 60,
+        "score": 70
+      }
+    },
+    {
+      "id": "ainsokhna",
+      "title": "العين السخنة",
+      "aliases": [
+        "السخنة",
+        "العين السخنة"
+      ],
+      "lat": 29.6,
+      "lng": 32.33,
+      "category": "transport",
+      "summary": "منطقة ساحلية مهمة على خليج السويس؛ نقطة محورية في مشروعات النقل والطاقة.",
+      "details": [
+        "يسهل حركة الناس والبضائع.",
+        "يقلل الزحام ويوفر وقت وطاقة."
+      ],
+      "metrics": {
+        "importance": 60,
+        "score": 70
+      }
+    },
+    {
+      "id": "suezcanal",
+      "title": "قناة السويس الجديدة",
+      "aliases": [
+        "قناة السويس",
+        "القناة الجديدة"
+      ],
+      "lat": 30.35,
+      "lng": 32.3,
+      "category": "waterway",
+      "summary": "قناة موازية تزيد القدرة الاستيعابية وتسمح بالمرور في اتجاهين وتزيد الدخل القومي.",
+      "details": [
+        "ممر ملاحي عالمي يربط الأحمر بالمتوسط.",
+        "التوسعة تهدف لتقليل زمن العبور وزيادة القدرة.",
+        "يرفع الدخل القومي ويقوي التجارة."
+      ],
+      "media": {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Suez_Canal%2C_Port_Said_-_ISS_2.jpg",
+        "video": "https://www.youtube.com/embed/0IaKfNZI89U",
+        "source": "https://commons.wikimedia.org/wiki/File:Suez_Canal,_Port_Said_-_ISS_2.jpg",
+        "attribution": "Wikimedia Commons (NASA) + YouTube"
+      },
+      "metrics": {
+        "importance": 95,
+        "score": 88
+      }
+    },
+    {
+      "id": "eastoweinat",
+      "title": "شرق العوينات",
+      "aliases": [
+        "شرق العوينات"
+      ],
+      "lat": 22.52,
+      "lng": 28.72,
+      "category": "agri",
+      "summary": "منطقة زراعية ضمن مشروعات التوسع الزراعي في الصحراء؛ تعتمد على استصلاح الأراضي.",
+      "details": [
+        "منطقة/مشروع يدعم الزراعة والأمن الغذائي.",
+        "يعتمد على مياه + تربة + نقل."
+      ],
+      "metrics": {
+        "importance": 60,
+        "score": 70
+      }
+    }
+  ],
+  "activities": [
+    {
+      "id": "drag-projects",
+      "type": "drag_match",
+      "title": "صنّف المشروعات حسب المجال",
+      "prompt": "اسحب كل مشروع إلى المجال المناسب: (زراعة/طاقة/نقل/عمران/ممرات مائية).",
+      "groups": [
+        {
+          "id": "agri",
+          "title": "زراعة"
+        },
+        {
+          "id": "energy",
+          "title": "طاقة"
+        },
+        {
+          "id": "transport",
+          "title": "نقل"
+        },
+        {
+          "id": "urban",
+          "title": "عمران"
+        },
+        {
+          "id": "waterway",
+          "title": "ممرات مائية"
+        }
+      ],
+      "items": [
+        {
+          "id": "i1",
+          "label": "الدلتا الجديدة",
+          "answerGroup": "agri"
+        },
+        {
+          "id": "i2",
+          "label": "شرق العوينات",
+          "answerGroup": "agri"
+        },
+        {
+          "id": "i3",
+          "label": "بنبان (شمس)",
+          "answerGroup": "energy"
+        },
+        {
+          "id": "i4",
+          "label": "الزعفرانة (رياح)",
+          "answerGroup": "energy"
+        },
+        {
+          "id": "i5",
+          "label": "القطار الكهربائي السريع",
+          "answerGroup": "transport"
+        },
+        {
+          "id": "i6",
+          "label": "محور روض الفرج",
+          "answerGroup": "transport"
+        },
+        {
+          "id": "i7",
+          "label": "العاصمة الإدارية",
+          "answerGroup": "urban"
+        },
+        {
+          "id": "i8",
+          "label": "العلمين الجديدة",
+          "answerGroup": "urban"
+        },
+        {
+          "id": "i9",
+          "label": "قناة السويس الجديدة",
+          "answerGroup": "waterway"
+        }
+      ]
+    },
+    {
+      "id": "quiz-vision",
+      "type": "quiz",
+      "title": "Quiz: رؤية مصر والمشروعات القومية",
+      "questions": [
+        {
+          "id": "q1",
+          "q": "التنمية المستدامة تعني…",
+          "choices": [
+            "استهلاك الموارد بسرعة",
+            "تلبية احتياجات اليوم دون الإضرار بحقوق المستقبل",
+            "إلغاء المشروعات"
+          ],
+          "answerIndex": 1,
+          "explain": "الاستدامة توازن بين احتياجات اليوم وحقوق الأجيال القادمة."
+        },
+        {
+          "id": "q2",
+          "q": "هدف قناة السويس الجديدة الأساسي هو…",
+          "choices": [
+            "تقليل زمن عبور السفن وزيادة عددها",
+            "زيادة التلوث",
+            "إغلاق الممر الملاحي"
+          ],
+          "answerIndex": 0,
+          "explain": "قناة موازية تسمح بالمرور في اتجاهين وتزيد القدرة الاستيعابية."
+        },
+        {
+          "id": "q3",
+          "q": "مشروع بنبان مثال على…",
+          "choices": [
+            "طاقة متجددة",
+            "طاقة غير متجددة",
+            "مشروع نقل"
+          ],
+          "answerIndex": 0,
+          "explain": "بنبان محطة طاقة شمسية."
+        },
+        {
+          "id": "q4",
+          "q": "الدلتا الجديدة هدفها…",
+          "choices": [
+            "الأمن الغذائي وتقليل الاستيراد",
+            "زيادة الاستيراد",
+            "منع الزراعة"
+          ],
+          "answerIndex": 0,
+          "explain": "مشروع زراعي كبير لزيادة الإنتاج."
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "k": "أماكن الدرس",
+      "v": "{places}",
+      "hint": "عدد المعالم على الخريطة"
+    },
+    {
+      "k": "التقدم",
+      "v": "{progress}%",
+      "hint": "يزيد مع الاستكشاف وحل الأنشطة"
+    },
+    {
+      "k": "XP",
+      "v": "{xp}",
+      "hint": "اكسب نقاط بالتفاعل"
+    },
+    {
+      "k": "شارات",
+      "v": "{badges}",
+      "hint": "تظهر عند إنجازات مختلفة"
+    }
+  ],
+  "missions": [
+    {
+      "id": "m1",
+      "title": "جولة مشروعات الطاقة المتجددة",
+      "steps": [
+        "benban",
+        "zaafarana",
+        "gabalzait"
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "جولة النقل والمواصلات",
+      "steps": [
+        "electrictrain",
+        "rodelfarag",
+        "ainsokhna"
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "تحدي التصنيف",
+      "activity": "drag-projects"
+    }
+  ]
+}

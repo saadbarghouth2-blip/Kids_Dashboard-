@@ -1,0 +1,449 @@
+{
+  "id": "water",
+  "title": "موارد المياه",
+  "ageHint": "للصف الخامس (تجربة تفاعلية للأطفال)",
+  "objectives": [
+    "أميز بين المياه المالحة والعذبة في مصر",
+    "أوضح استخدامات المياه في مصر",
+    "أفسر أسباب مشكلات المياه في مصر",
+    "أقدر جهود الدولة للتغلب على مشكلات المياه في مصر"
+  ],
+  "conceptCards": [
+    {
+      "id": "fresh-vs-salty",
+      "title": "المياه العذبة vs المياه المالحة",
+      "bullets": [
+        "المياه العذبة: نهر النيل، الأمطار، البحيرات العذبة، المياه الجوفية العذبة.",
+        "المياه المالحة: البحر المتوسط، البحر الأحمر، البحيرات الشمالية."
+      ],
+      "miniTip": "جرّب تسأل الشات: (فين البحر الأحمر؟) أو (إيه الفرق بين العذبة والمالحة؟)"
+    },
+    {
+      "id": "uses",
+      "title": "استخدامات المياه",
+      "bullets": [
+        "المياه المالحة: استخراج البترول والغاز، استخراج الأملاح، صيد الأسماك.",
+        "المياه العذبة: الاستخدامات المنزلية، الزراعة والصناعة، صيد الأسماك."
+      ]
+    },
+    {
+      "id": "problems",
+      "title": "مشكلات المياه",
+      "bullets": [
+        "ندرة المياه العذبة: الاعتماد على النيل + زيادة السكان + قلة الأمطار + بناء السدود.",
+        "تلوث المياه: مخلفات ومياه صرف تؤثر على صحة الإنسان والكائنات.",
+        "التغيرات المناخية: تؤثر على كمية الأمطار والحرارة ومستوى البحر."
+      ]
+    },
+    {
+      "id": "state-role",
+      "title": "جهود الدولة والمواطنين",
+      "bullets": [
+        "الدولة: محطات تحلية المياه، معالجة وإعادة استخدام المياه، تبطين الترع، تطوير الري.",
+        "المواطن: ترشيد الاستهلاك، عدم إلقاء المخلفات، الحفاظ على نظافة الترع والمصارف."
+      ],
+      "miniTip": "في نهاية الدرس هتاخد شارة (حارس المياه) لو نجحت في التحديات."
+    }
+  ],
+  "places": [
+    {
+      "id": "nile",
+      "title": "نهر النيل",
+      "aliases": [
+        "النيل"
+      ],
+      "lat": 24.0889,
+      "lng": 32.8998,
+      "category": "fresh",
+      "summary": "المصدر الأساسي للمياه العذبة في مصر، ويمر من الجنوب للشمال حتى الدلتا.",
+      "details": [
+        "أطول أنهار العالم، شريان الحياة في مصر.",
+        "مياه عذبة للزراعة والشرب والصناعة.",
+        "دلتا النيل شمالاً أكبر مناطق الزراعة."
+      ],
+      "media": {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c8/River-nile.JPG",
+        "video": "https://www.youtube.com/embed/nDOl7srHw3Y",
+        "source": "https://commons.wikimedia.org/wiki/File:River-nile.JPG",
+        "attribution": "Wikimedia Commons + YouTube"
+      },
+      "metrics": {
+        "importance": 95,
+        "score": 88
+      }
+    },
+    {
+      "id": "med",
+      "title": "البحر المتوسط",
+      "aliases": [
+        "المتوسط"
+      ],
+      "lat": 31.35,
+      "lng": 30.2,
+      "category": "salty",
+      "summary": "مورد مياه مالحة على شمال مصر، وتوجد عليه بحيرات شمالية متعددة.",
+      "details": [
+        "البحر المتوسط شمال مصر.",
+        "يمتد على الساحل الشمالي ويؤثر على المناخ.",
+        "مصدر صيد + موانئ + تجارة."
+      ],
+      "media": {
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mediterranean%20Sea%20surface.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Mediterranean_Sea_surface.jpg",
+        "attribution": "Wikipedia"
+      },
+      "metrics": {
+        "importance": 75,
+        "score": 75
+      }
+    },
+    {
+      "id": "redsea",
+      "title": "البحر الأحمر",
+      "aliases": [
+        "الأحمر"
+      ],
+      "lat": 26.5,
+      "lng": 34.0,
+      "category": "salty",
+      "summary": "مورد مياه مالحة شرق مصر، يرتبط بخليجي السويس والعقبة.",
+      "details": [
+        "البحر الأحمر شرق مصر.",
+        "ملاحة + سياحة + موارد بحرية.",
+        "يمتد جنوباً حتى خليج السويس وخليج العقبة."
+      ],
+      "media": {
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/RedSea.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:RedSea.jpg",
+        "attribution": "Wikipedia"
+      },
+      "metrics": {
+        "importance": 80,
+        "score": 76
+      }
+    },
+    {
+      "id": "bardawil",
+      "title": "بحيرة البردويل",
+      "aliases": [
+        "البردويل"
+      ],
+      "lat": 31.12,
+      "lng": 33.25,
+      "category": "salty",
+      "summary": "بحيرة شمالية في سيناء، من أشهر البحيرات المالحة.",
+      "details": [
+        "بحيرة ساحلية في شمال سيناء على المتوسط.",
+        "من أنقى البحيرات وتشتهر بالصيد.",
+        "تتأثر بفتح/غلق البواغيز وتغير الأمواج."
+      ],
+      "media": {
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ISS062-E-124786_-_View_of_Egypt_-_Lake_Bardawil_-_Bir_al_Abd_(cropped).jpg",
+        "video": "https://www.youtube.com/embed/NDQoHTJF_9c",
+        "source": "https://commons.wikimedia.org/wiki/File:ISS062-E-124786_-_View_of_Egypt_-_Lake_Bardawil_-_Bir_al_Abd_(cropped).jpg",
+        "attribution": "Wikimedia Commons"
+      },
+      "metrics": {
+        "importance": 70,
+        "score": 78
+      }
+    },
+    {
+      "id": "manzala",
+      "title": "بحيرة المنزلة",
+      "aliases": [
+        "المنزله",
+        "المنزلة"
+      ],
+      "lat": 31.28,
+      "lng": 31.95,
+      "category": "salty",
+      "summary": "بحيرة شمالية قرب الدلتا، تتأثر بالمياه القادمة من المصارف.",
+      "details": [
+        "مياه مالحة مهمة للصيد والملاحة.",
+        "يمكن استخراج أملاح/معادن منها."
+      ],
+      "metrics": {
+        "importance": 60,
+        "score": 70
+      }
+    },
+    {
+      "id": "groundwater",
+      "title": "المياه الجوفية",
+      "aliases": [
+        "جوفية",
+        "مياه جوفيه",
+        "المياه الجوفيه"
+      ],
+      "lat": 28.3,
+      "lng": 29.2,
+      "category": "fresh",
+      "summary": "مياه موجودة تحت سطح الأرض داخل الصخور والتربة، تُستخدم في مناطق كثيرة بالصحراء.",
+      "details": [
+        "مياه عذبة تُستخدم للشرب والزراعة.",
+        "تحتاج للحفاظ عليها من التلوث والهدْر."
+      ],
+      "metrics": {
+        "importance": 60,
+        "score": 70
+      }
+    },
+    {
+      "id": "suezgulf",
+      "title": "خليج السويس",
+      "aliases": [
+        "خليج السويس",
+        "السويس"
+      ],
+      "lat": 29.5,
+      "lng": 32.6,
+      "category": "salty",
+      "summary": "ممر مائي مهم يرتبط بالبحر الأحمر، ويُستخدم في الملاحة ومشروعات متعددة.",
+      "details": [
+        "خليج السويس جزء من البحر الأحمر.",
+        "مهم للملاحة والطاقة (بترول/غاز) ومشروعات الرياح.",
+        "يمتد من السويس حتى جنوباً."
+      ],
+      "media": {
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Suez%20Canal%2C%20Suez%2C%20Egypt.jpg",
+        "video": "https://www.youtube.com/embed/zT4v8vVUweg",
+        "source": "https://commons.wikimedia.org/wiki/File:Suez_Canal,_Suez,_Egypt.jpg",
+        "attribution": "Wikimedia Commons"
+      },
+      "metrics": {
+        "importance": 82,
+        "score": 78
+      }
+    },
+    {
+      "id": "aqabagulf",
+      "title": "خليج العقبة",
+      "aliases": [
+        "العقبة",
+        "خليج العقبة"
+      ],
+      "lat": 29.6,
+      "lng": 34.9,
+      "category": "salty",
+      "summary": "يمتد شمال البحر الأحمر، ويضم مناطق ساحلية وسياحية.",
+      "details": [
+        "مياه مالحة مهمة للصيد والملاحة.",
+        "يمكن استخراج أملاح/معادن منها."
+      ],
+      "metrics": {
+        "importance": 60,
+        "score": 70
+      }
+    },
+    {
+      "id": "burullus",
+      "title": "بحيرة البرلس",
+      "aliases": [
+        "البرلس"
+      ],
+      "lat": 31.52,
+      "lng": 31.15,
+      "category": "salty",
+      "summary": "بحيرة شمالية على ساحل البحر المتوسط، ضمن نظام البحيرات الشمالية.",
+      "details": [
+        "مياه مالحة مهمة للصيد والملاحة.",
+        "يمكن استخراج أملاح/معادن منها."
+      ],
+      "metrics": {
+        "importance": 60,
+        "score": 70
+      }
+    },
+    {
+      "id": "idku",
+      "title": "بحيرة إدكو",
+      "aliases": [
+        "ادكو",
+        "إدكو"
+      ],
+      "lat": 31.25,
+      "lng": 30.3,
+      "category": "salty",
+      "summary": "بحيرة شمالية قريبة من البحر المتوسط.",
+      "details": [
+        "مياه مالحة مهمة للصيد والملاحة.",
+        "يمكن استخراج أملاح/معادن منها."
+      ],
+      "metrics": {
+        "importance": 60,
+        "score": 70
+      }
+    },
+    {
+      "id": "maryut",
+      "title": "بحيرة مريوط",
+      "aliases": [
+        "مريوط"
+      ],
+      "lat": 31.1,
+      "lng": 29.9,
+      "category": "salty",
+      "summary": "بحيرة شمالية قرب الإسكندرية.",
+      "details": [
+        "مياه مالحة مهمة للصيد والملاحة.",
+        "يمكن استخراج أملاح/معادن منها."
+      ],
+      "metrics": {
+        "importance": 60,
+        "score": 70
+      }
+    },
+    {
+      "id": "nasser",
+      "title": "بحيرة ناصر",
+      "aliases": [
+        "ناصر",
+        "بحيره ناصر",
+        "بحيرة ناصر"
+      ],
+      "lat": 22.45,
+      "lng": 31.9,
+      "category": "fresh",
+      "summary": "بحيرة كبيرة في جنوب مصر خلف السد العالي، تُستخدم في تخزين المياه.",
+      "details": [
+        "بحيرة صناعية خلف السد العالي.",
+        "تخزين مياه وتنظيم الفيضان وتوليد كهرباء.",
+        "من أكبر البحيرات الصناعية في العالم."
+      ],
+      "media": {
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake%20Nasser%2C%20Egypt%20ESA24001610.jpeg",
+        "video": "https://www.youtube.com/embed/_hzj3CduPHg",
+        "source": "https://commons.wikimedia.org/wiki/File:Lake_Nasser,_Egypt_ESA24001610.jpeg",
+        "attribution": "Copernicus Sentinel-2 / Wikimedia Commons"
+      },
+      "metrics": {
+        "importance": 90,
+        "score": 86
+      }
+    }
+  ],
+  "activities": [
+    {
+      "id": "drag-uses",
+      "type": "drag_match",
+      "title": "اسحب الاستخدام للمياه الصحيحة",
+      "prompt": "اسحب كل بطاقة إلى (مياه عذبة) أو (مياه مالحة).",
+      "groups": [
+        {
+          "id": "fresh",
+          "title": "مياه عذبة"
+        },
+        {
+          "id": "salty",
+          "title": "مياه مالحة"
+        }
+      ],
+      "items": [
+        {
+          "id": "home",
+          "label": "استخدامات منزلية",
+          "answerGroup": "fresh"
+        },
+        {
+          "id": "agri",
+          "label": "زراعة وصناعة",
+          "answerGroup": "fresh"
+        },
+        {
+          "id": "oilgas",
+          "label": "استخراج بترول وغاز",
+          "answerGroup": "salty"
+        },
+        {
+          "id": "salts",
+          "label": "استخراج أملاح",
+          "answerGroup": "salty"
+        },
+        {
+          "id": "fish",
+          "label": "صيد الأسماك",
+          "answerGroup": "fresh"
+        }
+      ]
+    },
+    {
+      "id": "quiz-water",
+      "type": "quiz",
+      "title": "اختبار سريع",
+      "questions": [
+        {
+          "id": "q1",
+          "q": "أيّ مما يلي يُعد موردًا للمياه العذبة؟",
+          "choices": [
+            "البحر الأحمر",
+            "نهر النيل",
+            "بحيرة البردويل",
+            "البحر المتوسط"
+          ],
+          "answerIndex": 1,
+          "explain": "نهر النيل هو المصدر الأساسي للمياه العذبة."
+        },
+        {
+          "id": "q2",
+          "q": "من استخدامات المياه المالحة:",
+          "choices": [
+            "الري في الحقول",
+            "استخراج الأملاح",
+            "الشرب",
+            "الطبخ"
+          ],
+          "answerIndex": 1,
+          "explain": "استخراج الأملاح من أشهر استخدامات المياه المالحة."
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "k": "أماكن الدرس",
+      "v": "{places}",
+      "hint": "عدد النقاط/الأماكن التفاعلية في الخريطة"
+    },
+    {
+      "k": "تقدمك",
+      "v": "{progress}%",
+      "hint": "يزيد مع الاستكشاف والأنشطة"
+    },
+    {
+      "k": "شارات",
+      "v": "{badges}",
+      "hint": "تأخذها عند النجاح"
+    },
+    {
+      "k": "نقاط XP",
+      "v": "{xp}",
+      "hint": "تزيد مع كل تفاعل"
+    }
+  ],
+  "missions": [
+    {
+      "id": "m1",
+      "title": "اكتشف مصادر المياه المالحة",
+      "steps": [
+        "med",
+        "redsea",
+        "bardawil"
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "اكتشف مصادر المياه العذبة",
+      "steps": [
+        "nile",
+        "nasser",
+        "groundwater"
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "حلّ تحدي التصنيف",
+      "activity": "drag-uses"
+    }
+  ]
+}
